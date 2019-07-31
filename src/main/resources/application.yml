@@ -1,0 +1,11 @@
+server:
+    port: 18888
+
+apache:
+    rocketmq:
+        namesrvAddr: 10.0.2.216:9876
+        consumer:
+            PushConsumer: PushConsumer
+            PushConsumer1: PushConsumer1
+        producer:
+            producerGroup: Producer1
